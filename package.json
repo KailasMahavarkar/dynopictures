@@ -1,50 +1,39 @@
 {
-	"name": "dynopictures_v2",
-	"version": "0.1.0",
-	"private": true,
+	"name": "dynopictures",
+	"version": "1.0.0",
+	"description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+	"main": "next.config.js",
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.36",
+		"@fortawesome/free-solid-svg-icons": "^5.15.4",
+		"@fortawesome/react-fontawesome": "^0.1.16",
+		"axios": "^0.24.0",
+		"lightgallery": "^2.3.0",
+		"next": "12.0.2",
+		"react": "17.0.2",
+		"react-before-after-slider-component": "^1.1.1",
+		"react-dom": "17.0.2",
+		"react-lightbox-gallery": "^2.0.1",
+		"react-responsive": "^9.0.0-beta.4",
+		"react-scramble-text": "^1.0.1",
+		"sweetalert2": "^11.1.10",
+		"swiper": "^7.2.0",
+		"validator": "^13.7.0",
+		"sass": "^1.77.8"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.0",
+		"eslint": "<8.0.0",
+		"eslint-config-next": "12.0.2",
+		"postcss": "^8.3.11"
+	},
 	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "next dev",
-		"build": "next build --legacy-peer-deps",
+		"build": "next build",
 		"start": "next start",
 		"lint": "next lint"
 	},
-	"dependencies": {
-		"autoprefixer": "^10.4.0",
-		"axios": "^1.7.3",
-		"eslint": "^9.8.0",
-		"eslint-config-next": "^14.2.5",
-		"eslint-import-resolver-node": "^0.3.9",
-		"eslint-import-resolver-typescript": "^3.6.1",
-		"eslint-module-utils": "^2.8.1",
-		"eslint-plugin-import": "^2.29.1",
-		"eslint-plugin-jsx-a11y": "^6.9.0",
-		"eslint-plugin-react": "^7.35.0",
-		"eslint-plugin-react-hooks": "^4.6.2",
-		"eslint-scope": "^8.0.2",
-		"eslint-visitor-keys": "^4.0.0",
-		"lightgallery": "^2.7.2",
-		"next": "^14.2.5",
-		"postcss": "^8.3.11",
-		"react": "^18.3.1",
-		"react-before-after-slider-component": "^1.1.1",
-		"react-dom": "^18.3.1",
-		"react-lightbox-gallery": "^2.0.1",
-		"react-responsive": "^10.0.0",
-		"react-scramble-text": "^1.0.1",
-		"sass": "^1.77.8",
-		"scss": "^0.2.4",
-		"sweetalert2": "^11.1.10",
-		"swiper": "^11.1.9",
-		"validator": "^13.7.0"
-	},
-	"devDependencies": {
-		"autoprefixer": "10.4.20",
-		"eslint": "^9.8.0",
-		"eslint-config-next": "14.2.5",
-		"postcss": "8.4.40"
-	},
-	"peerDependencies": {
-		"react": "^16.0.0 || ^15.0.0",
-		"react-dom": "^16.0.0 || ^15.0.0"
-	}
+	"author": "",
+	"license": "ISC"
 }
