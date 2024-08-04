@@ -34,8 +34,8 @@
 		"lint": "next lint"
 	},
     "peerDependencies": {
-        "react": "^16.0.0 || ^17.0.0",
-        "react-dom": "^16.0.0 || ^17.0.0"
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
     },
 	"author": "",
 	"license": "ISC"
